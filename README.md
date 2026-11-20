@@ -28,9 +28,11 @@ One model translates in both directions: Polish to English and English to Polish
 
 ## Use with Tolmacz
 
-Add the [Tolmacz library](https://github.com/TomJerzak/tolmacz) to your project, then pass it the
-model folder. If you only want to translate, download the ready-to-use app with the model included
-from the [Tolmacz releases](https://github.com/TomJerzak/tolmacz/releases/latest).
+Add the [Tolmacz NuGet package](https://www.nuget.org/packages/Tolmacz) to your project with
+`dotnet add package Tolmacz`, then pass it the model folder. The library's source code is in the
+[Tolmacz repository](https://github.com/TomJerzak/tolmacz). If you only want to translate, download
+the ready-to-use app with the model included from the
+[Tolmacz releases](https://github.com/TomJerzak/tolmacz/releases/latest).
 
 ```csharp
 using Tolmacz;
